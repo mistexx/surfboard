@@ -1,0 +1,16 @@
+.headline {
+  text-align: center;
+}
+
+.headline__title {
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+.headline__subtile {
+  padding: 0 26%;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 21, 6px;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+$z-fixef-menu: 100%;
+$baseFontSize: 18px;
+
+@import "../css/layout/normalize.css";
+@import "../css/layout/base.css";
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap);
+
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/menu.scss";
+@import "blocks/contacts.scss";
+@import "blocks/button.scss";
+@import "blocks/features.scss";
+@import "blocks/section.scss";
+@import "blocks/benefits.scss";
+@import "blocks/headline.scss";
+@import "blocks/features.scss";
+@import "blocks/form.scss";
+@import "blocks/fixed-menu.scss";
+@import "blocks/reviews.scss";
+@import "blocks/radio.scss";
