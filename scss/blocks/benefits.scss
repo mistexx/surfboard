@@ -34,6 +34,10 @@
     }
 }
 
+.benefit__img {
+    margin-bottom: 20px;
+}
+
 .benefit__img-wrapper {
     display: inline-block;
     width: 128px;
@@ -42,12 +46,12 @@
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 20px;
+   
 }
 
 .benefit__icon {
-    width: 68px;
-    height: 68px;
+    max-width: 68px;
+    max-height: 68px;
     position: absolute;
     top: 50%;
     left: 50%;

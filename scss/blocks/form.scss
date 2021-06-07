@@ -20,6 +20,10 @@
 .form__row {
     display: flex;
     margin-bottom: 12px;
+
+    &--textarea {
+        margin-bottom: 32px;
+    }
 }
 
 .form__block {
@@ -46,7 +50,6 @@
     &--textarea {
         height: 152px;
         resize: none;
-        margin-bottom: 14px;
     }
 
     &:focus {
@@ -61,5 +64,5 @@
 }
 
 .form__buttons {
-    margin-top: 10px;
+    margin-top: 23px;
 }
