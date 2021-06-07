@@ -1,8 +1,11 @@
 $z-fixef-menu: 100%;
 $baseFontSize: 18px;
+@mixin title__bottom {
+    margin-bottom: 18px;
+}
 
-@import "../css/layout/normalize.css";
-@import "../css/layout/base.css";
+@import "layout/normalize.scss";
+@import "layout/base.scss";
 @import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap);
 
 @import "blocks/hero.scss";
