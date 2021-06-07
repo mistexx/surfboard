@@ -658,6 +658,10 @@ table {
   display: none;
 }
 
+.benefit__img {
+  margin-bottom: 20px;
+}
+
 .benefit__img-wrapper {
   display: inline-block;
   width: 128px;
@@ -666,12 +670,11 @@ table {
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .benefit__icon {
-  width: 68px;
-  height: 68px;
+  max-width: 68px;
+  max-height: 68px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -689,16 +692,19 @@ table {
 
 .headline {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .headline__title {
   margin-bottom: 9px;
   text-align: center;
 }
+.headline__title--reviews {
+  margin-bottom: 25px;
+}
 
 .headline__subtile {
   padding: 0 26%;
-  margin-bottom: 40px;
   font-size: 18px;
   line-height: 21, 6px;
   font-weight: bold;
@@ -763,6 +769,9 @@ table {
   display: flex;
   margin-bottom: 12px;
 }
+.form__row--textarea {
+  margin-bottom: 32px;
+}
 
 .form__block {
   -webkit-box-flex: 1;
@@ -789,7 +798,6 @@ table {
 .form__input--textarea {
   height: 152px;
   resize: none;
-  margin-bottom: 14px;
 }
 .form__input:focus {
   border-color: #FEDB3F;
@@ -805,7 +813,7 @@ table {
 }
 
 .form__buttons {
-  margin-top: 10px;
+  margin-top: 23px;
 }
 
 .fixed-menu {
@@ -844,19 +852,19 @@ table {
           transform: translate(-50%, -50%);
 }
 
-.reviews {
-  padding-top: 18px;
-}
-
 .reviews__display {
   background: #F8FAF9;
-  padding: 42px 42px;
+  padding: 42px 126px 42px 42px;
+  margin-bottom: 9px;
 }
 
 .reviews__display-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .reviews__avatar {
@@ -883,7 +891,6 @@ table {
   font-weight: bold;
   line-height: 32px;
   color: #292929;
-  padding-top: 31px;
   margin-bottom: 14px;
 }
 
@@ -891,7 +898,6 @@ table {
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 29px;
-  width: 481px;
 }
 
 .reviews__autor {
@@ -957,7 +963,7 @@ table {
   border-radius: 4px;
 }
 .radio--checkbox .radio__visiable::before {
-  background: url(../img/choice.png);
+  background: url(../img/choice.png) center center/10px no-repeat;
 }
 
 .radio__elem {
