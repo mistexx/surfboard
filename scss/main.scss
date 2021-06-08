@@ -1,8 +1,21 @@
 $z-fixef-menu: 100%;
 $baseFontSize: 18px;
-@mixin title__bottom {
-    margin-bottom: 18px;
+
+@mixin section__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 57,6px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #292929;
 }
+@mixin headline__title {
+    margin-bottom: 9px;
+    text-align: center;
+}
+
 
 @import "layout/normalize.scss";
 @import "layout/base.scss";
