@@ -466,7 +466,7 @@ table {
 .hero__title-desc {
   font-size: 21px;
   line-height: 25px;
-  margin-bottom: 59px;
+  margin-bottom: 41px;
 }
 
 .header {
@@ -533,6 +533,7 @@ table {
   border-radius: 45px;
   background-color: #FEDB3F;
   text-transform: uppercase;
+  display: inline-block;
   color: black;
   text-decoration: none;
   border: none;
