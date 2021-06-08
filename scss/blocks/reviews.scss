@@ -9,6 +9,12 @@
     align-items: center;
 }
 
+.reviews-section__title {
+    @include section__title;
+    @include headline__title;
+    margin-bottom: 25px;
+}
+
 .reviews__avatar {
     width: 253px;
     height: 264px;
