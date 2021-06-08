@@ -701,9 +701,6 @@ table {
   margin-bottom: 9px;
   text-align: center;
 }
-.headline__title--reviews {
-  margin-bottom: 25px;
-}
 
 .headline__subtile {
   padding: 0 26%;
@@ -821,7 +818,7 @@ table {
 .fixed-menu {
   position: fixed;
   top: 35%;
-  right: calc(48% - 471px);
+  right: calc(46% - 471px);
   z-index: 100%;
 }
 
@@ -867,6 +864,22 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.reviews-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 57, 6px;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 9px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .reviews__avatar {
