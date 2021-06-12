@@ -1,9 +1,9 @@
 .button {
-    font-size: 16px;
+    font-size: 0.88rem;
     line-height: 1;
     font-weight: bold;
-    padding: 21px 41px;
-    border-radius: 45px;
+    padding: 1.16rem 2.27rem;
+    border-radius: 2.5rem;
     background-color: #FEDB3F;
     text-transform: uppercase;
     display: inline-block;
@@ -21,8 +21,8 @@
         font-weight: normal;
         color: white;
         text-transform: none;
-        font-size: 18px;
-        line-height: 21px;
+        font-size: 1rem;
+        line-height: 1.16rem;
 
         &:hover {
             background: transparent;

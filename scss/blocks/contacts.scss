@@ -1,14 +1,22 @@
 .contacts-number {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.22rem;
     font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
+.contacts-number__text {
+    white-space: nowrap;
+}
+
+.contacts-number__icon {
+    flex-shrink: 0;
+}
+
 .contacts-number__icon-elem {
-    width: 13px;
-    height: 13px;
-    margin-right: 5px;
+    width: 0.72rem;
+    height: 0.72rem;
+    margin-right: 0.27rem;
 }

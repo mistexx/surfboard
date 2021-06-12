@@ -16,7 +16,7 @@
     &::before {
         content: url(../img/circle.png);
         position: absolute;
-        top: 55px;
+        top: 3.05rem;
         right: 0;
         transform: translateX(50%);
     }
@@ -35,13 +35,13 @@
 }
 
 .benefit__img {
-    margin-bottom: 20px;
+    margin-bottom: 1.11rem;
 }
 
 .benefit__img-wrapper {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: 7.11rem;
+    height: 7.11rem;
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
@@ -50,8 +50,8 @@
 }
 
 .benefit__icon {
-    max-width: 68px;
-    max-height: 68px;
+    max-width: 3.77rem;
+    max-height: 3.77rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,9 +59,9 @@
 }
 
 .benefit__title {
-    font-size: 27px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 1.77rem;
     font-weight: bold;
     color: #292929;
-    margin-bottom: 20px;
+    margin-bottom: 1.11rem;
 }

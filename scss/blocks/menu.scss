@@ -1,16 +1,29 @@
+.menu {
+    margin: 0 30px;
+    padding-top: 5px;
+
+    @include tablets {
+        display: none;
+    }
+}
+
 .menu__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__link {
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .menu__item {
-    margin-right: 22px;
+    margin-right: 1.22rem;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
+    margin-bottom: 10px;
 
     &:last-child {
         margin-right: 0;

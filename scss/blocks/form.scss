@@ -9,26 +9,26 @@
 
 .form__col {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 1.11rem;
 
     &:last-child {
         margin-right: 0;
-        margin-left: 10px;
+        margin-left: 0.55rem;
     }
 }
 
 .form__row {
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: 0.8rem;
 
     &--textarea {
-        margin-bottom: 32px;
+        margin-bottom: 1.7rem;
     }
 }
 
 .form__block {
     flex: 1;
-    margin-right: 11px;
+    margin-right: 0.8rem;
 
     &:last-child {
         margin-right: 0;
@@ -36,19 +36,19 @@
 }
 
 .form__title{
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.16rem;
 }
 
 .form__input {
     width: 100%;
     border: none;
-    padding: 18px 12px;
+    padding: 0.9rem 0.5rem;
     border: 3px solid transparent;
-    border-radius: 4px;
+    border-radius: 0.22rem;
 
     &--textarea {
-        height: 152px;
+        height: 8.44rem;
         resize: none;
     }
 
@@ -64,5 +64,5 @@
 }
 
 .form__buttons {
-    margin-top: 23px;
+    margin-top: 1.27rem;
 }
