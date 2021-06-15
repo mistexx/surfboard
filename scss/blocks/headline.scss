@@ -11,5 +11,14 @@
     padding: 0 26%;
     font-size: 1rem;
     line-height: 1.2rem;
-    font-weight: bold;
+
+    @include tablets {
+        margin-bottom: 2.722rem;
+        padding: 0px 20%;
+    }
+
+    @include phones {
+        padding: 0 2%;
+        margin-bottom: 3.4rem;
+    }
 }

@@ -1,0 +1,21 @@
+.footer__container {
+  width: 100vw;
+}
+
+.footer {
+  height: 5.166rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  align-items: center;
+}
