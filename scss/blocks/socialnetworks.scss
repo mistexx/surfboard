@@ -1,3 +1,16 @@
 .socialnetworks {
     display: flex;
 }
+
+.socialnetworks__items {
+    margin-right: 0.77rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.socialnetworks__img {
+    width: 1.11rem;
+    height: 1.11rem;
+}
