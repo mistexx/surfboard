@@ -14,10 +14,18 @@ $phones: 480px;
     text-align: center;
     text-transform: uppercase;
     color: #292929;
+
+    @include phones {
+        font-size: 2.22rem;
+    }
 }
 @mixin headline__title {
     margin-bottom: 1rem;
     text-align: center;
+
+    @include phones {
+        margin-bottom: 0.1rem;
+    }
 }
 
 
@@ -41,3 +49,6 @@ $phones: 480px;
 @import "blocks/radio.scss";
 @import "blocks/media.scss";
 @import "blocks/hamburger.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
+@import "blocks/socialnetworks.scss";
