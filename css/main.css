@@ -1361,6 +1361,11 @@ table {
 .footer__container {
   width: 100vw;
 }
+@media screen and (max-width: 768px) {
+  .footer__container {
+    padding: 0 4%;
+  }
+}
 
 .footer {
   height: 5.166rem;
@@ -1368,6 +1373,11 @@ table {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 8.38rem;
+  }
 }
 
 .footer__content {
@@ -1380,16 +1390,89 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 1.1rem;
+  font-size: 1.166rem;
+  line-height: 1.33rem;
+  color: #292929;
+}
+@media screen and (max-width: 768px) {
+  .footer__content {
+    padding-top: 1.55rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 1.1rem;
+  }
 }
 
 .footer__col {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .footer__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.footer__col-right {
+  padding-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .footer__col-right {
+    padding-top: 0.7rem;
+  }
+}
+
+.footer__contacts-number {
+  font-weight: normal;
+}
+
+.footer__adress {
+  margin-bottom: 0.4rem;
+}
+@media screen and (max-width: 480px) {
+  .footer__adress {
+    margin-bottom: 0.7rem;
+  }
 }
 
 .socialnetworks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.socialnetworks__items {
+  margin-right: 0.77rem;
+}
+.socialnetworks__items:last-child {
+  margin-right: 0;
+}
+
+.socialnetworks__img {
+  width: 1.11rem;
+  height: 1.11rem;
 }
