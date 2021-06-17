@@ -1,17 +1,14 @@
 .hero {
     background: url(../img/background/two-mans.png) center top / cover  no-repeat;
-    background-color: #3A587E;
+    background-color: #1968B1;;
     height: 100vh;
     min-height: 36.2rem;
     color: white;
     padding: 1.38rem 0 3.33rem 0;
 
     @include tablets {
-      background-position: right bottom 88%;
-    }
-
-    @include phones {
-      background-position: right 15% bottom ;
+      background-position: bottom right 10%;
+      background-size: auto calc(100% - 91px);
     }
   }
 
@@ -34,7 +31,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 90%;
+      max-width: 95%;
       text-align: center;
       margin: auto auto;
       padding: 0;
@@ -58,6 +55,11 @@
     margin-bottom: 1.1rem;
     text-transform: uppercase;
 
+    @include tablets {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
     @include phones {
       font-size: 2.2rem;
       line-height: 1;
@@ -69,6 +71,10 @@
     font-size: 1.16rem;
     line-height: 1.38rem;
     margin-bottom: 2.30rem;
+
+    @include tablets {
+      margin-bottom: 2.8rem;
+    }
 
     @include phones {
       font-size: 1rem;
