@@ -434,7 +434,7 @@ table {
 
 .hero {
   background: url(../img/background/two-mans.png) center top/cover no-repeat;
-  background-color: #3A587E;
+  background-color: #1968B1;
   height: 100vh;
   min-height: 36.2rem;
   color: white;
@@ -442,12 +442,8 @@ table {
 }
 @media screen and (max-width: 768px) {
   .hero {
-    background-position: right bottom 88%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .hero {
-    background-position: right 15% bottom;
+    background-position: bottom right 10%;
+    background-size: auto calc(100% - 91px);
   }
 }
 
@@ -489,7 +485,7 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    max-width: 90%;
+    max-width: 95%;
     text-align: center;
     margin: auto auto;
     padding: 0;
@@ -514,6 +510,12 @@ table {
   margin-bottom: 1.1rem;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .hero__main-title {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
 @media screen and (max-width: 480px) {
   .hero__main-title {
     font-size: 2.2rem;
@@ -526,6 +528,11 @@ table {
   font-size: 1.16rem;
   line-height: 1.38rem;
   margin-bottom: 2.3rem;
+}
+@media screen and (max-width: 768px) {
+  .hero__title-desc {
+    margin-bottom: 2.8rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .hero__title-desc {
@@ -543,6 +550,14 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 0.833rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -857,6 +872,11 @@ table {
   text-align: center;
   margin-bottom: 2.22rem;
 }
+@media screen and (max-width: 768px) {
+  .headline {
+    margin-bottom: 3.22rem;
+  }
+}
 
 .headline__title {
   margin-bottom: 1rem;
@@ -875,14 +895,12 @@ table {
 }
 @media screen and (max-width: 768px) {
   .headline__subtile {
-    margin-bottom: 2.722rem;
     padding: 0px 20%;
   }
 }
 @media screen and (max-width: 480px) {
   .headline__subtile {
     padding: 0 2%;
-    margin-bottom: 3.4rem;
   }
 }
 
