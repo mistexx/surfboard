@@ -10,6 +10,10 @@
       background-position: bottom right 10%;
       background-size: auto calc(100% - 91px);
     }
+
+    @include phones {
+      background-position: bottom right 20%;
+    }
   }
 
 .hero_container{
@@ -78,5 +82,6 @@
 
     @include phones {
       font-size: 1rem;
+      margin-bottom: 2.2rem;
     }
   }
