@@ -6,6 +6,10 @@
     &--checkbox {
         .radio__visiable {
             border-radius: 0.22rem;
+        
+            @include phones {
+                margin-left: 20px;
+            }
 
             &::before {
                 background: url(../img/choice.png) center center / 0.55rem no-repeat;
