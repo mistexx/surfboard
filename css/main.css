@@ -345,12 +345,16 @@ template {
 html {
   font-size: 18px;
 }
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 2vmax;
+  }
+}
 
 html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-size: 2vmax;
 }
 
 body {
