@@ -350,6 +350,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
+  font-size: 2vmax;
 }
 
 body {
@@ -446,6 +447,11 @@ table {
     background-size: auto calc(100% - 91px);
   }
 }
+@media screen and (max-width: 480px) {
+  .hero {
+    background-position: bottom right 20%;
+  }
+}
 
 .hero_container {
   display: -webkit-box;
@@ -537,6 +543,7 @@ table {
 @media screen and (max-width: 480px) {
   .hero__title-desc {
     font-size: 1rem;
+    margin-bottom: 2.2rem;
   }
 }
 
@@ -557,6 +564,11 @@ table {
         -ms-flex-align: center;
             align-items: center;
     padding: 0 0.833rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 0;
   }
 }
 
@@ -1079,6 +1091,8 @@ table {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0 1.16rem;
+    margin-left: 49px;
   }
 }
 
@@ -1303,6 +1317,11 @@ table {
 }
 .radio--checkbox .radio__visiable {
   border-radius: 0.22rem;
+}
+@media screen and (max-width: 480px) {
+  .radio--checkbox .radio__visiable {
+    margin-left: 20px;
+  }
 }
 .radio--checkbox .radio__visiable::before {
   background: url(../img/choice.png) center center/0.55rem no-repeat;
