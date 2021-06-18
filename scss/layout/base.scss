@@ -3,17 +3,15 @@
 html {
     font-size: $baseFontSize;
 
+    @include phones {
+        font-size: 2vmax;
+    }
 }
 
 html, body{
     margin: 0;
     height: 100%;
     width: 100%;
-
-    @include phones {
-        font-size: 2vmax;
-    }
-    
 }
 
 body{
