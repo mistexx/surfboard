@@ -1,0 +1,19 @@
+.assortment__control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2.22rem;
+    width: 1.66rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.assortment__control--left {
+    left: -11%;
+}
+
+.assortment__control--right {
+    right: 5.7%;
+}
