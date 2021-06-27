@@ -12,8 +12,28 @@
 
 .assortment__control--left {
     left: -11%;
+
+    @include tablets {
+        left: 17%;
+        top: 31%;
+    }
+
+    @include phones {
+        left: -2%;
+        top: 27%;
+    }
 }
 
 .assortment__control--right {
     right: 5.7%;
+
+    @include tablets {
+        right: 17.7%;
+        top: 31%;
+    }
+
+    @include phones {
+        right: -1.3%;
+        top: 27%;
+    }
 }
