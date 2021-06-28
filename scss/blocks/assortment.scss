@@ -29,7 +29,7 @@
     position: relative;
     flex-shrink: 0;
     width: 49%;
-    margin-top: -16px;
+    margin-top: -0.888rem;
 
     @include tablets {
         margin-left: 8%;
@@ -37,7 +37,7 @@
 
     @include phones {
         width: 63%;
-        margin-bottom: 35px;
+        margin-bottom: 1.944rem;
     }
 
     /* &::before {
@@ -70,22 +70,22 @@
 }
 
 .assortment__title {
-    font-size: 36px;
-    margin-bottom: 24px;
+    font-size: 2rem;
+    margin-bottom: 1.333rem;
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
     color: #292929;
 
     @include tablets {
-        font-size: 31px;
-        margin-bottom: 12px;
-        line-height: 36px;
+        font-size: 1.722rem;
+        margin-bottom: 0.666rem;
+        line-height: 2rem;
     }
 }
 
 .assortment__text {
-    margin-bottom: 24px;
+    margin-bottom: 1.333rem;
     line-height: 1.25;
     padding-right: 20%;
 
@@ -96,18 +96,18 @@
 
     @include phones {
         padding: 0px 10%;
-        font-size: 18px;
+        font-size: 1rem;
     }
 }
 
 .assortment__parameter {
-    margin-right: 52px;
+    margin-right: 2.888rem;
     &:last-child {
         margin-right: 0;
     }
 
     @include tablets {
-        margin-right: 13px;
+        margin-right: 0.722rem;
         &:last-child {
             margin-right: 0;
         } 
@@ -117,7 +117,7 @@
 .assortment__params {
     display: flex;
     line-height: 1.2;
-    margin-bottom: 24px;
+    margin-bottom: 1.333rem;
 }
 
 .assortment__value {
@@ -131,17 +131,17 @@
 }
 
 .assortment__price {
-    font-size: 60px;
+    font-size: 3.333rem;
     color: #151515;
     line-height: 1;
-    margin-right: 63px;
+    margin-right: 3.5rem;
     font-weight: 300;
 
     @include tablets {
-        margin-right: 40px;
+        margin-right: 2.222rem;
     }
 
     @include phones {
-        margin-right: 29px;
+        margin-right: 1.611rem;
     }
 }
