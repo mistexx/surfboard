@@ -23,6 +23,23 @@
     }
 }
 
+.reviews__item.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.reviews__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: .3s;
+    opacity: 0;
+}
+
 .reviews-section__title {
     @include section__title;
     @include headline__title;
@@ -95,12 +112,7 @@
     @include phones {
         width: 4rem;
         height: 4rem;
-    }
-
-    &--active {
-      border-color: #FEDB3F;  
-    }
-    
+    }    
 }
 
 .interactive-avatar__link {
@@ -123,4 +135,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.reviews__switcher-item.active {
+    border-color: #FEDB3F;
 }
