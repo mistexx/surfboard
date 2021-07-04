@@ -1202,22 +1202,28 @@ table {
   }
 }
 
+.reviews__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .reviews__item.active {
   position: static;
   opacity: 1;
   pointer-events: unset;
+  display: block;
 }
 
 .reviews__item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   pointer-events: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 100%;
+  display: none;
 }
 
 .reviews-section__title {
@@ -1633,16 +1639,6 @@ table {
       flex-shrink: 0;
   width: 49%;
   margin-top: -0.888rem;
-  /* &::before {
-      content: "";
-      position: absolute;
-      left: -11px;
-      top: 88px;
-      display: block;
-      width: 396px;
-      height: 378px;
-      background: url("../../img/bg-surf.png") center center / cover no-repeat;
-  } */
 }
 @media screen and (max-width: 768px) {
   .assortment__photo {
