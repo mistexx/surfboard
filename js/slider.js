@@ -9,7 +9,7 @@ const maxRight = 940;
 
 let currentRight = 0;
 
-itemsList.getElementsByClassName.right = currentRight;
+itemsList.style.right = currentRight;
 
 buttonRight.addEventListener("click", e => {
     e.preventDefault();

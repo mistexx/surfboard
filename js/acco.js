@@ -5,7 +5,6 @@ const openItem = item => {
     const reqHeight = textBlock.height();
 
     contentBlock.height(reqHeight);
-
 }
 
 const closeEveryItem = container => {
@@ -16,10 +15,13 @@ const closeEveryItem = container => {
     items.height(0);
 }
 
-$('.team__member').click(e => {
+$('.team__title').click(e => {
     const $this = $(e.currentTarget);
     const container = $this.closest('.team');
     const elemContainer = $this.closest(".team__item");
+    
+    
+    openItem($this);
 
     if (elemContainer.hasClass("active")) {
         closeEveryItem(container);
