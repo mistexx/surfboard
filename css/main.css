@@ -1959,6 +1959,9 @@ table {
 .team__item:last-child {
   margin-right: 0;
 }
+.team__item--active {
+  height: 4.5rem;
+}
 
 .team__member {
   margin-bottom: 1.16rem;
@@ -2050,5 +2053,59 @@ table {
 
 .body--active-menu {
   overflow: hidden;
+}
+
+.mobile__menu--overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6.2rem;
+  z-index: 12;
+}
+.mobile__menu--overlay .mobile__menu__list {
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mobile__menu--overlay .mobile__menu__item {
+  margin-right: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.05rem;
+}
+.mobile__menu--overlay .mobile__menu__item:last-child {
+  margin-right: 0;
+}
+.mobile__menu--overlay .mobile__menu__link {
+  text-decoration: none;
+  white-space: nowrap;
+}
+.mobile__menu--overlay .mobile__menu {
+  margin: 0 30px;
+  padding-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .mobile__menu--overlay .mobile__menu {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
