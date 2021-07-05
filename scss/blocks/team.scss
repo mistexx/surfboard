@@ -1,6 +1,10 @@
 .team {
     display: flex;
     justify-content: space-between;
+
+    @include tablets {
+        flex-direction: column;
+    }
 }
 
 .team--version--desktop {
@@ -31,6 +35,18 @@
 .team__member-img {
     min-width: 12.22rem;
     min-height: 16.11rem;
+
+    @include tablets {
+        display: none;
+    }
+
+    &--content {
+        display: none;
+
+        @include tablets {
+            display: block;
+        };
+    }
 }
 
 .team__title-icon {
