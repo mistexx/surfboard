@@ -1930,6 +1930,14 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .team {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .team--version--desktop {
   display: -webkit-box;
@@ -1966,6 +1974,19 @@ table {
 .team__member-img {
   min-width: 12.22rem;
   min-height: 16.11rem;
+}
+@media screen and (max-width: 768px) {
+  .team__member-img {
+    display: none;
+  }
+}
+.team__member-img--content {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .team__member-img--content {
+    display: block;
+  }
 }
 
 .team__title-icon {
