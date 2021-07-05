@@ -3,7 +3,8 @@ const openItem = item => {
     const contentBlock = container.find(".team__content");
     const textBlock = contentBlock.find(".team__content-block")
     const reqHeight = textBlock.height();
-
+    
+    container.addClass('active');
     contentBlock.height(reqHeight);
 }
 
@@ -15,16 +16,14 @@ const closeEveryItem = container => {
     items.height(0);
 }
 
-$('.team__title').click(e => {
+$('.team__title-button').click(e => {
     const $this = $(e.currentTarget);
     const container = $this.closest('.team');
     const elemContainer = $this.closest(".team__item");
-    
-    
-    openItem($this);
 
     if (elemContainer.hasClass("active")) {
         closeEveryItem(container);
+
     } else {
         closeEveryItem(container);
         openItem($this); 
