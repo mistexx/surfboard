@@ -420,16 +420,18 @@
             <section class="section order-section">
                 <div class="container">
                     <h2 class="section__title title__form">Закажите доску</h2>
-                    <form action="" class="form">
+                    <form id="myForm" action="" class="form">
                         <div class="form__col">
                             <div class="form__row">
                                 <label class="form__block">
-                                    <div class="form__title">Имя</div>
-                                    <input type="text" class="form__input">
+                                    <div  class="form__title">Имя</div>
+                                    <input type="text" class="form__input" id="name">
+                                    <div class="form__error"></div>
                                 </label>
                                 <label class="form__block">
-                                    <div class="form__title">Телефон</div>
-                                    <input type="text" class="form__input">
+                                    <div  class="form__title">Телефон</div>
+                                    <input type="text" class="form__input" id="phone">
+                                    <div class="form__error"></div>
                                 </label>
                             </div>
                             <div class="form__row">
@@ -460,8 +462,9 @@
                         <div class="form__col">
                             <div class="form__row form__row--textarea">
                                 <label class="form__block">
-                                    <div class="form__title">Комментарий</div>
-                                    <textarea class="form__input form__input--textarea"></textarea>
+                                    <div  class="form__title">Комментарий</div>
+                                    <textarea class="form__input form__input--textarea" id="comment"></textarea>
+                                    <div class="form__error"></div>
                                 </label>
                             </div>
                             <div class="form__control">
@@ -484,7 +487,7 @@
                                 </label>
                             </div>
                             <div class="form__buttons">
-                                <input type="submit" value="Заказать" class="button">
+                                <input id="sendForm" type="submit" value="Заказать" class="button">
                                 <input type="reset" value="Очистить" class="button button--theme--transparent">
                             </div>
                         </div>
@@ -557,10 +560,18 @@
             </nav>
         </div>
     </div>
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <div class="modal__title">Cообщение отправлено</div>
+            <a href="#" class="button">Закрыть</a>
+        </div>
+      </div>
     <script src="js/jquery-3-6-0.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/acco.js"></script>
     <script src="js/overlay.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
