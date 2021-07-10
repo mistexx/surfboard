@@ -125,9 +125,20 @@
     border-radius: 4px;
     color: red;
     height: 1.5rem;
-    width: 100%;
+    width: 9.5rem;
     padding: 2px 0 0 5px;
     opacity: 0;
+
+    &::before {
+        position: absolute;
+        top: -7px;
+        left: 20px;
+        content: "";
+        border: 7px solid transparent;
+        border-bottom-color: #fff;
+        border-top-width: 0;
+    
+      }
   
     &--active {
       opacity: 1;
