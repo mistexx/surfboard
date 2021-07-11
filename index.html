@@ -421,16 +421,17 @@
                 <div class="container">
                     <h2 class="section__title title__form">Закажите доску</h2>
                     <form id="myForm" action="" class="form">
+                        <input type="hidden" name="to" value="somewhere@mail.com">
                         <div class="form__col">
                             <div class="form__row">
                                 <label class="form__block">
                                     <div  class="form__title">Имя</div>
-                                    <input type="text" class="form__input" id="name">
+                                    <input type="text" class="form__input" name="name">
                                     <div class="form__error"></div>
                                 </label>
                                 <label class="form__block">
                                     <div  class="form__title">Телефон</div>
-                                    <input type="text" class="form__input" id="phone">
+                                    <input type="text" class="form__input" name="phone">
                                     <div class="form__error"></div>
                                 </label>
                             </div>
@@ -463,7 +464,7 @@
                             <div class="form__row form__row--textarea">
                                 <label class="form__block">
                                     <div  class="form__title">Комментарий</div>
-                                    <textarea class="form__input form__input--textarea" id="comment"></textarea>
+                                    <textarea class="form__input form__input--textarea" name="comment"></textarea>
                                     <div class="form__error"></div>
                                 </label>
                             </div>
@@ -572,5 +573,6 @@
     <script src="js/acco.js"></script>
     <script src="js/overlay.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
