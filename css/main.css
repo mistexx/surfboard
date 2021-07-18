@@ -2156,7 +2156,7 @@ table {
 
 .modal__content {
   background-color: #fff;
-  padding: 35px 60px;
+  padding: 0.55rem 2.22rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
