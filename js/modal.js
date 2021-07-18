@@ -1,6 +1,17 @@
 $(".form").submit(e => {
     e.preventDefault();
 
+    $.fancybox.open({
+        src: "#modal",
+        type: "inline"
+    })
+
+    $(".app-submit-button").click(e => {
+        e.preventDefault();
+
+        $.fancybox.close();
+    })
+
     const form = $(e.currentTarget);
     const name = form.find("[name='name']");
     const phone = form.find("[name='phone']");
