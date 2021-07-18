@@ -2153,15 +2153,6 @@ table {
 .modal {
   display: none;
 }
-.modal.error-modal .modal__title {
-  color: red;
-}
-.modal.fancybox-content {
-  padding: 0 !important;
-}
-.modal .fancy-button {
-  display: none;
-}
 
 .modal__content {
   background-color: #fff;
