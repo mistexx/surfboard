@@ -2156,7 +2156,7 @@ table {
 
 .modal__content {
   background-color: #fff;
-  padding: 0.55rem 2.22rem;
+  padding: 0.2rem 1.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2176,5 +2176,9 @@ table {
 
 .input-error {
   border-color: hotpink;
+}
+
+.error-modal {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
