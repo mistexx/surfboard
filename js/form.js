@@ -31,9 +31,9 @@ function validate(element) {
     };
   };
 
-submitButton.addEventListener("click", function (e) {
+/* submitButton.addEventListener("click", function (e) {
     e.preventDefault();
     if (validateForm(form)) {
         alert('Форма валидна, отправляем на сервер!');
     }
-});
+}) */;
